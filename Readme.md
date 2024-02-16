@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Vasiliy Ryabinin](https://up.htmlacademy.ru/javascript/31/user/2441151).
-* Наставник: `Неизвестно`.
+* Наставник: [Олег Глущенко](https://htmlacademy.ru/profile/id305355).
 
 ---
 
