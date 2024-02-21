@@ -1,9 +1,7 @@
 const isStringLengthValid = (inputString, maxLength) => inputString.length <= maxLength;
 
-// console.log(isStringLengthValid('Hello World!', 10));
-
 const isPalindrome = (inputString) => {
-  const normalizedString = inputString.replaceAll(' ','').toUpperCase(); //replace(/\s/g, '')
+  const normalizedString = inputString.replaceAll(' ', '').toUpperCase(); //replace(/\s/g, '')
 
   let reversedString = '';
 
@@ -12,8 +10,6 @@ const isPalindrome = (inputString) => {
   }
   return normalizedString === reversedString;
 };
-
-// console.log(isPalindrome('Лёша на полке клопа нашёл'));
 
 const extractDigits = (input) => {
 
@@ -30,4 +26,10 @@ const extractDigits = (input) => {
   return Number.isNaN(result) ? NaN : result;
 };
 
+// console.log(isStringLengthValid('Hello World!', 10));
+// console.log(isPalindrome('Лёша на полке клопа нашёл'));
 // console.log(extractDigits('1 кефир, 0.5 батона'));
+
+isStringLengthValid('Hello World!', 10);
+isPalindrome('Лёша на полке клопа нашёл');
+extractDigits('1 кефир, 0.5 батона');
